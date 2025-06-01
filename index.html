@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dessert Corner</title>
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="nav-bar">
+            <a href="#home"onclick="showSection('home')">Home</a>
+            <a href="#login">Login</a>
+            <a href="#signup">Signup</a>
+            <a href="#view-order">View Order</a>
+        </div>
+        <div id="homeSection">
+            <h1>Dessert Corner</h1>
+            <div class="search-bar">
+                <input type="text" id="searchInput" placeholder="Enter pastry name...">
+                <button onclick="searchPastries()">Search</button>
+            </div>
+            <div id="pastryList" class="pastry-list"></div>
+        </div>
+        <div>
+           <img src="https://img.freepik.com/free-photo/variety-pastries-wooden-boards_114579-17198.jpg?ga=GA1.1.1585122675.1748090603&semt=ais_hybrid&w=740"alt=yummy>
+        </div>    
+    </div>
+     <script src="script.js"></script>
+</body>
+</html>
